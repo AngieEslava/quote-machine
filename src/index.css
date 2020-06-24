@@ -5,6 +5,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1289A7;
+  animation-name: backcolor;
+  animation-duration: 18s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes backcolor{
+  0%{background-color:#9980FA;}
+  15%{background-color:#EA2027;}
+  25%{background-color: #1B1464;}
+  40%{background-color:#FDA7DF;}
+  50%{background-color:#C4E538;}
+  75%{background-color: #B53471;}
+  90%{background-color:#12CBC4;}
+  100%{background-color: #F79F1F;}
 }
 
 code {
